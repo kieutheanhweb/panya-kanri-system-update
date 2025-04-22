@@ -1,5 +1,8 @@
 package BakeryManager;
-
+/**
+ * 客様情報クラス：お客様の名前、住所、電話番号、生年月日、メールアドレスを管理するクラス。
+ * お客様情報を作成・表示・更新するためのメソッドが含まれている。
+ */
 import java.time.LocalDate;
 
 public class 顧客情報 {
@@ -62,8 +65,6 @@ public class 顧客情報 {
         this.birthDate = birthDate;
     }
     //  客様情報を表示
-
-
     @Override
     public String toString() {
         return "名前：" + name + "\n" +
@@ -73,6 +74,6 @@ public class 顧客情報 {
                 "生年月日：" + birthDate;
     }
     public void displayInfo(){
-        System.out.println(this.toString());
+        System.out.println(this);
     }
 }

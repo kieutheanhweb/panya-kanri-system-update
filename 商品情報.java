@@ -11,7 +11,6 @@ public class 商品情報 {
     private String description;      // 商品説明
     private String category;         // カテゴリー（例：ケーキ、パン）
     //コンストラクタ
-
     public 商品情報(String productName, double price, String description, String category) {
         this.productName = productName;
         this.price = price;
@@ -35,6 +34,7 @@ public class 商品情報 {
     public String getCategory() {
         return category;
     }
+    // Setter メソッド
 
     public void setProductName(String productName) {
         this.productName = productName;

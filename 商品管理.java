@@ -1,11 +1,12 @@
 package BakeryManager;
-
+/**
+ * 商品管理クラス：新商品を追加する、商品リストを表示クラス。
+ */
 import java.util.ArrayList;
 import java.util.List;
-
-// 商品情報を管理するクラス
 public class  商品管理{
-    private List<商品情報> products = new ArrayList<>();      //// 商品のリスト
+
+    private List<商品情報> products = new ArrayList<>();      // 商品のリスト
 
     // 商品をリストに追加するメソッド
     public void addProducts(商品情報 product){
@@ -17,5 +18,4 @@ public class  商品管理{
             product.displayProductInfo();      // 商品情報を表示する
         }
     }
-
 }

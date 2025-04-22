@@ -1,10 +1,9 @@
 package BakeryManager;
-
-import java.time.LocalDate;
-
 /**
- * 商品情報クラス：各商品のデータを管理するクラス
+ * 注文情報クラス：注文のデータ（ 注文日、注文個数、注文された商品）を管理するクラス。
+ * 注文を作成・表示・更新するためのメソッドが含まれている。
  */
+import java.time.LocalDate;
 
 public class 注文情報 {
     private LocalDate orderDate;       // 注文日
@@ -39,22 +38,10 @@ public class 注文情報 {
     public void setProduct(商品情報 product) {
         this.product = product;
     }
-    // 注文個数検討
-    public void setQuantity(int quantity) {
-        if (quantity < 1){
-            System.out.println("Error: 注文個数は１以上にしてください");   //１個小なり場合
-            this.quantity = 1;
-        }
-        else {
-            this.quantity = quantity;
-        }
-    }
-
     // 注文情報を表示（合計金額付き)
-
     @Override
     public String toString() {
-        double totalPrice = product.getPrice() * quantity;
+        double totalPrice = product.getPrice() * quantity;     // = 単価＊個数
         return "注文情報{" +
                 "注文日：" + orderDate +
                 ", 商品：" + product.getProductName() +

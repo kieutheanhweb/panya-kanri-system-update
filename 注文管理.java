@@ -1,4 +1,7 @@
 package BakeryManager;
+/**
+ * 注文管理クラス：注文を追加する、商品情報を表示クラス。
+ */
 import java.util.ArrayList;
 import java.util.List;
 public class 注文管理 {

@@ -1,4 +1,7 @@
 package BakeryManager;
+/**
+ * 顧客情報管理クラス：顧客情報を追加する、表示するクラス。
+ */
 import java.util.ArrayList;
 import java.util.List;
 public class 顧客情報管理 {
