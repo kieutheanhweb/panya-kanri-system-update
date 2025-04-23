@@ -25,7 +25,7 @@
 GitHubからプロジェクトをクローンする
 リポジトリをクローンするために、次のコマンドを実行します：
    ```bash
-  git clone https://github.com/kieutheanhweb/BakeryManagerkieutheanh.git
+  git clone https://github.com/kieutheanhweb/panya-kanri-system-update.git
 
  5. 使用方法：
    このプロジェクトを実行するために、以下の手順に従ってください：
