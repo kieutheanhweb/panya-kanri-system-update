@@ -9,6 +9,7 @@
 - LocalDate: `LocalDate`は、日付を管理するためのクラスです。注文日や顧客の生年月日など、日付に関連する処理が非常に簡単に行えます。
 - Scanner: ユーザーからの入力を受け取るために`Scanner`クラスを使用しています。
 -   ArrayList: このプロジェクトでは、`ArrayList`を使用して、商品リスト、顧客リスト、注文リストなどのデータを動的に管理しています。`ArrayList`は、サイズが可変の配列を提供し、追加、削除するのに便利です。
+
 ３．主な機能：
       このプロジェクトには以下の主な機能があります：
 - 商品情報管理: 
@@ -24,7 +25,7 @@
 GitHubからプロジェクトをクローンする
 リポジトリをクローンするために、次のコマンドを実行します：
    ```bash
-   git clone https://github.com/kieutheanhweb/BakeryManagerkieutheanh.git
+  git clone https://github.com/kieutheanhweb/BakeryManagerkieutheanh.git
 
  5. 使用方法：
    このプロジェクトを実行するために、以下の手順に従ってください：
